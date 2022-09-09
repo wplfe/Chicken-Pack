@@ -10,14 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/style.css">
-    <link rel="icon" href="../static/assets/logo-icon.png">
+    <link rel="icon" href="../static/assets/ckicken-pack-logo.ico">
 </head>
 
 <body>
     <header class="primary-header">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#"><img src="../static/assets/logo.png" alt="Chicken-Pack"></a>
+                <a href="#"><img class="logo" src="../static/assets/Chicken-pack-logo-text.png" alt="Chicken-Pack"></a>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
                     <img class="icon-hamburger" src="../static/assets/images/icon-hamburger.svg" alt="" aria-hidden="true">
                     <img class="icon-close" src="../static/assets/images/icon-close.svg" alt="" aria-hidden="true">
@@ -27,15 +27,15 @@
                     <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
                         <li><a href="index.html ">Home</a></li>
                         <li><a href="#shop">Shop</a></li>
-                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                         <!--
                         <li><a href="#">Company</a></li>
                         -->
                     </ul>
                 </nav>
-                <a href="review.html">
+                <a href="https://g.page/r/CeVfi8YMtr7VEBM/review">
                     <button type=button class="button | display-sm-none display-md-inline-flex" data-type="inverted">
-                        <span><img src= "../static/assets/review.svg" alt="review"></span>
+                        <span><img src= "../static/assets/images/icon-review.svg" alt="review"></span>
                         review us 
                     </button>
                 </a>
@@ -54,27 +54,25 @@
                         <div style="--flow-spacer:2em">
                             <a href="#shop">
                                 <button class="button">
-                                    <span><img src= "../static/assets/packaging.svg" alt="pack"></span>
+                                    <span><img src= "../static/assets/images/icon-packaging.svg" alt="pack"></span>
                                     Build my pack                  
                                 </button>
                             </a>
                             <a href="#how-it-works" style="--flow-spacer:0em">
                                 <button type=button class="button" data-type="inverted" style="margin-top:0.5em">
-                                    <span><img src= "../static/assets/right.svg" alt=""></span>
+                                    <span><img src= "../static/assets/images/icon-right.svg" alt=""></span>
                                     How it Works                    
                                 </button>
                             </a>
                         </div>
+                        <div style="--flow-spacer:2em" class="gap">
+                            <img class="tag-icon" src="../static/assets/images/icon-nigeria-map.svg" alt="nigerian-map">
+                            <img class="tag-icon" style="--flow-spacer:0em" src="../static/assets/images/icon-halal.svg" alt="halal">
+                        </div>
+
+                    </div>
+                    <div class="">
                         <div style="--flow-spacer: 2em" class="gap">
-                            <!--
-                            <div class="tag" style="--flow-spacer: 0em">
-                                <span><img class="tag-icon" src= "assets/wallet.svg" alt="wallet"></span>
-                                <div>
-                                    <h3 class="text-primary-200">CASH BEFORE DELIVERY</h3>
-                                    <p class="fs-300 text-primary-300">100% money back guarantee</p>
-                                </div>
-                            </div>
-                            -->
                             <!--
                             <div class="tag" style="--flow-spacer: 0em">
                                 <span><img class="tag-icon" src= "assets/gift.svg" alt="gift"></span>
@@ -85,24 +83,28 @@
                             </div>
                             -->
                             <div class="tag" style="--flow-spacer: 0em">
-                                <span><img class="tag-icon" src= "../static/assets/customer-care.svg" alt="customer-care"></span>
+                                <span><img class="tag-icon" src= "../static/assets/images/icon-customer-care.svg" alt="customer-care"></span>
                                 <div>
                                     <h3 class="text-primary-200">24/7 CUSTOMER SERVICE</h3>
                                     <p class="fs-300 text-primary-300">Call us +234 90 783 547 44 </p>
                                 </div>
                             </div>
                             <div class="tag" style="--flow-spacer: 0em">
-                                <span><img src= "../static/assets/delivery.svg" alt="delivery"></span>
+                                <span><img src= "../static/assets/images/icon-delivery.svg" alt="delivery"></span>
                                 <div>
                                     <h3 class="text-primary-200">DELIVERY AVAILABLE</h3>
-                                    <p class="fs-300 text-primary-300">We deliver on Thursday, Friday, Saturday</p>
+                                    <p class="fs-300 text-primary-300">On Thursdays, Fridays and Saturdays</p>
+                                </div>
+                            </div>
+                            <div class="tag" style="--flow-spacer: 0em">
+                                <span><img class="tag-icon" src= "../static/assets/images/icon-wallet.svg" alt="wallet"></span>
+                                <div>
+                                    <h3 class="text-primary-200">PAYMENT VALIDATES ORDER</h3>
+                                    <p class="fs-300 text-primary-300">100% money back guarantee</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="justify-self-end">
-                        <img class="tag-icon" src="../static/assets/nigeria-map.svg" alt="nigerian-map">
-                        <img class="tag-icon" src="../static/assets/halal.svg" alt="halal">
+
                     </div>
                 </div>
         </section>
@@ -122,7 +124,7 @@
                                 <h1 class="prices ff-heading">₦15,000<span>₦17,000</span></h1>
                                 <a href="shop.html">
                                     <button class="button" data-type="inverted">
-                                        <span><img src= "../static/assets/packaging.svg" alt="pack"></span>
+                                        <span><img src= "../static/assets/images/icon-packaging.svg" alt="pack"></span>
                                         Build a pack                  
                                     </button>
                                 </a>
@@ -142,7 +144,7 @@
                                 <h1 class="prices ff-heading">₦25,000<span>₦27,000</span></h1>
                                 <a href="shop.html">
                                     <button class="button" data-type="inverted">
-                                        <span><img src= "../static/assets/packaging.svg" alt="pack"></span>
+                                        <span><img src= "../static/assets/images/icon-packaging.svg" alt="pack"></span>
                                         Build a pack                  
                                     </button>
                                 </a>
@@ -164,12 +166,12 @@
                         </div>
                     </div>
                     <div class="cta-imagebox">
-                        <img src="../static/assets/get-started.jpg" alt="Farm Chickens" </a>
+                        <img src="../static/assets/jpeg-optimizer-get-started.jpg" alt="Farm Chickens" </a>
                     </div>
                 </div>
                 <div class="even-columns padding-block-500 vertical-align-center">
                     <div class="cta-imagebox">
-                        <img src="../static/assets/get-started.jpg" alt="Chicken-Pack">
+                        <img src="../static/assets/jpeg-optimizer-choose-pack.jpg" alt="Chicken-Pack">
                     </div>
                     <div class="cta">
                         <h3 class=" text-white-alpha-100 fs-1100 fw-bold">02</h3>
@@ -180,7 +182,7 @@
                             <div>
                                 <a href="#shop">
                                     <button class="button">
-                                        <span><img src= "../static/assets/packaging.svg" alt="pack"></span>
+                                        <span><img src= "../static/assets/images/icon-packaging.svg" alt="pack"></span>
                                         Build my pack                  
                                     </button>
                                 </a>
@@ -198,12 +200,12 @@
                         </div>
                     </div>
                     <div class="cta-imagebox">
-                        <img src="../static/assets/get-started.jpg" alt="Chicken-Pack ">
+                        <img src="../static/assets/jpeg-optimizer-farm-pack.jpg" alt="Chicken-Pack ">
                     </div>
                 </div>
                 <div class="even-columns padding-block-500 vertical-align-center">
                     <div class="cta-imagebox">
-                        <img src="../static/assets/get-started.jpg " alt="">
+                        <img src="../static/assets/jpeg-optimizer-enjoy.jpg " alt="">
                     </div>
                     <div class="cta">
                         <h3 class="text-white-alpha-100 fs-1100 fw-bold ">04</h3>
@@ -214,7 +216,7 @@
                             <div>
                                 <a href="review.html">
                                     <button type=button class="button" data-type="" style="--flow-spacer: 2em">
-                                        <span><img src= "../static/assets/review.svg" alt="review"></span>
+                                        <span><img src= "../static/assets/images/icon-review.svg" alt="review"></span>
                                         review us   
                                     </button>
                                 </a>
@@ -228,7 +230,7 @@
             <div class="container">
                 <div class="primary-footer-wrapper">
                     <div class="primary-footer-logo-social">
-                        <a href="#"><img src="../static/assets/logo.png" alt="Chicken Pack"></a>
+                        <a href="#"><img class="logo" src="../static/assets/chicken-pack-logo-text.png" alt="Chicken Pack"></a>
                         <ul class="social-list" role="list" aria-label="Social links">
                             <li>
                                 <a aria-label="facebook" href="#">
@@ -266,7 +268,7 @@
                         <form action="submit_form" method="post">
                             <input type="email" placeholder="E-mail" name="email">
                             <button type="submit" class="button">
-                                <span><img src= "../static/assets/go.svg" alt=""></span>
+                                <span><img src= "../static/assets/images/icon-go.svg" alt=""></span>
                                 Go                           
                             </button>
                         </form>
