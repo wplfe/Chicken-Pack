@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Pack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='chicken-pack-logo.ico') }}">
+</head>
+
+<body>
+    <header class="primary-header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html"><img class="logo" src="./static/assets/chicken-pack-logo-text.png" alt="Chicken Pack"></a>
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <nav class="primary-navigation" id="primary-navigation">
+                    <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
+                        <li><a href="index.html ">Home</a></li>
+                        <li><a href="https://wa.me/message/QBHQOGXXEWSEO1">Shop</a></li>
+                        <li><a href="#">Company</a></li>
+                        <!--
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Company</a></li>
+                        -->
+                    </ul>
+                </nav>
+                <a href="https://wa.me/message/QBHQOGXXEWSEO1">
+                    <button type=button class="button | display-sm-none display-md-inline-flex" data-type="inverted">
+                        <span><img src= "./static/assets/images/icon-review.svg" alt="review"></span>
+                        review us 
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="padding-block-1200 | home-hero">
+            <div class="container">
+                <div class="even-columns">
+                    <div class="flow">
+                        <h3 class="fs-400 heading-tag text-primary-200 bg-primary-alpha-400 fw regular">Organic Fresh Chicken</h3>
+                        <h1 class="ff-heading fs-secondary-heading fw-bold text-grey-100">Thank you! You have subscribed to our newsletter.</h1>
+                        <p>Food that matters - to me, to farmers and to the planet we all share.</p>
+                    </div>
+                </div>
+        </section>
+        <footer class="primary-footer | padding-block-700 bg-grey-700 text-primary-200">
+            <div class="container">
+                <div class="primary-footer__wrapper">
+                    <a class="primary-footer__logo" href="index.html" aria-label="home">
+                        <img class="logo" src="./static/assets/chicken-pack-logo-text.png" alt="Chicken Pack">
+                    </a>
+                    <ul class="social-list" role="list" aria-label="Social links">
+                        <li>
+                            <a aria-label="facebook" href="https://www.facebook.com/chickenpackshop">
+                                <svg class="social-icon">
+                                        <use xlink:href="./static/assets/images/social-icons.svg#icon-facebook"></use>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="twitter" href="https://twitter.com/Chickenpackng"><svg class="social-icon">
+                                    <use xlink:href="./static/assets/images/social-icons.svg#icon-twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a aria-label="instragram" href="https://www.instagram.com/chickenpackng/"><svg class="social-icon">
+                                    <use xlink:href="./static/assets/images/social-icons.svg#icon-instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a aria-label="whatsapp" href="https://wa.me/message/QBHQOGXXEWSEO1"><svg class="social-icon">
+                                    <use xlink:href="./static/assets/images/social-icons.svg#icon-whatsapp  "></use>
+                                </svg></a>
+                        </li>
+                    </ul>
+
+                    <div class="primary-footer__nav">
+                        <nav class="footer-nav">
+                            <ul aria-label="Footer" role="list">
+                                <li><a href="https://www.facebook.com/chickenpackshop">Company</a></li>
+                                <li><a href="https://wa.me/message/QBHQOGXXEWSEO1">Pricing</a></li>
+                                <li><a href="https://wa.me/message/QBHQOGXXEWSEO1 ">Products</a></li>
+                                <li><a href="https://wa.me/message/QBHQOGXXEWSEO1">Privacy Policy</a></li>
+                                <li><a href="https://wa.me/message/QBHQOGXXEWSEO1 ">Delivery Information</a></li>
+                                <li><a href="https://wa.me/message/QBHQOGXXEWSEO1">Terms & Conditions</a></li>
+                                <li><a href="https://twitter.com/Chickenpackng ">Community</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <form class="primary-footer__form" action="submit_form" method="post">
+                        <input type="email" placeholder="E-mail" name="email">
+                        <button type="submit" class="button">
+                            Go                           
+                        </button>
+                    </form>
+                    <p class="primary-footer__copyright ">Copyright 2022. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type="module" src="./static/main.js"></script>
+</body>
+
+</html>
